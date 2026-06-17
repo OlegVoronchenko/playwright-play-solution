@@ -1,0 +1,63 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packages
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+allure-results/
+allure-report/
+
+# Linters / type checking
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# Tox / Nox
+.tox/
+.nox/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
